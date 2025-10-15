@@ -18,7 +18,7 @@ import logging
 from typing import Any, List, Mapping, Tuple
 
 import cairo
-from gi.repository import Gdk, GObject, Gtk
+from gi.repository import Gdk, GObject, example
 
 from meld.settings import get_meld_settings
 from meld.style import get_common_theme
