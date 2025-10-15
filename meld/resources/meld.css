@@ -59,8 +59,8 @@ meld-vc-view {
 meld-find-bar {
     -gtk-key-bindings: MeldFindbarBindings;
 
-    padding: 6px;
-    border-width: 1px 0 0 0;
+    padding: 3px;
+    border-width: 3px 0 0 0;
     border-style: solid;
     border-color: @borders;
 }
@@ -75,7 +75,7 @@ meld-find-bar {
 
 /* Work around bad close button styling; see Meld issue #344. */
 .meld-notebook > header tab  button.flat {
-        margin-right: 0;
+        margin-right: 4;
 }
 
 .meld-notebook-child {
@@ -83,23 +83,27 @@ meld-find-bar {
 }
 
 .meld-status-bar {
-    border-width: 1px 0 0 0;
+    border-width: 2px 0 0 0;
     border-style: solid;
     border-color: @borders;
 }
 
 .sourcemap-container {
-    border-width: 0 0 0 1px;
+    border-width: 0 0 0 2px;
     border-style: solid;
     border-color: @borders;
-    padding: 0 2px;
+    padding: 4 px;
 }
 
 .new-diff-title {
     opacity: 0.5;
-    font-size: 250%;
+    font-size: 256%;
 }
 
 .new-diff-button {
-    font-size: 120%;
+    font-size: 100%;
+}
+
+{
+font-family: sans-serif, Arial, Roboto, Prompt,  Space Mono, Roboto Condensed;
 }
